@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact | Portfolio victoria BIPOGE</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Contactez-moi</h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="about.html">À propos</a>
+      <a href="skills.html">Compétences</a>
+      <a href="projects.html">Projets</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-section">
+      <h2>Formulaire de Contact</h2>
+      <form id="contactForm">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required placeholder="Votre nom" />
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required placeholder="votre@email.com" />
+
+        <label for="sujet">Sujet :</label>
+        <input type="text" id="sujet" name="sujet" required placeholder="Sujet du message" />
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="6" required placeholder="Votre message ici..."></textarea>
+
+        <button type="submit">Envoyer</button>
+      </form>
+
+      <p id="confirmation"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
